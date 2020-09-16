@@ -1,0 +1,54 @@
+1600221936a:1:{s:8:"home.htm";a:9:{s:8:"fileName";s:8:"home.htm";s:7:"content";s:866:"title = "Home"
+url = "/"
+is_hidden = 0
+layout = "default"
+==
+{% partial 'brand-panel' %}
+{% partial 'theme-slider' %}
+{% partial 'collection-banner' %}
+{% partial 'discount-banner' %}
+{% partial 'tab-product' %}
+{% partial 'product-slider-tab' %}
+{% partial 'collection-banner-2' %}
+{% partial 'deal-banner' %}
+{% partial 'rounded-category' %}
+{% partial 'box-category' %}
+{% partial 'media-banner-tab' %}
+{% partial 'collection-banner-3' %}
+{% partial 'hot-deal' %}
+{% partial 'testimonial' %}
+<div class="title1 section-my-space">
+    <h4>Special Products</h4>
+</div>
+{% partial 'product' %}
+{% partial 'instagram' %}
+{% partial 'contact-banner' %}
+{% partial 'newsletter' %}
+{% put scripts %}  
+<script src="{{ 'assets/js/slider-animat.js'|theme }}"></script>
+<script src="{{ 'assets/js/timer.js'|theme }}?v=06"></script>
+{% endput %}";s:5:"mtime";i:1600044822;s:6:"markup";s:800:"{% partial 'brand-panel' %}
+{% partial 'theme-slider' %}
+{% partial 'collection-banner' %}
+{% partial 'discount-banner' %}
+{% partial 'tab-product' %}
+{% partial 'product-slider-tab' %}
+{% partial 'collection-banner-2' %}
+{% partial 'deal-banner' %}
+{% partial 'rounded-category' %}
+{% partial 'box-category' %}
+{% partial 'media-banner-tab' %}
+{% partial 'collection-banner-3' %}
+{% partial 'hot-deal' %}
+{% partial 'testimonial' %}
+<div class="title1 section-my-space">
+    <h4>Special Products</h4>
+</div>
+{% partial 'product' %}
+{% partial 'instagram' %}
+{% partial 'contact-banner' %}
+{% partial 'newsletter' %}
+{% put scripts %}  
+<script src="{{ 'assets/js/slider-animat.js'|theme }}"></script>
+<script src="{{ 'assets/js/timer.js'|theme }}?v=06"></script>
+{% endput %}";s:4:"code";N;s:5:"title";s:4:"Home";s:3:"url";s:1:"/";s:9:"is_hidden";s:1:"0";s:6:"layout";s:7:"default";}}

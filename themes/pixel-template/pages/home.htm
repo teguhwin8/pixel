@@ -1,0 +1,30 @@
+title = "Home"
+url = "/"
+is_hidden = 0
+layout = "default"
+==
+{% partial 'brand-panel' %}
+{% partial 'theme-slider' %}
+{% partial 'collection-banner' %}
+{% partial 'discount-banner' %}
+{% partial 'tab-product' %}
+{% partial 'product-slider-tab' %}
+{% partial 'collection-banner-2' %}
+{% partial 'deal-banner' %}
+{% partial 'rounded-category' %}
+{% partial 'box-category' %}
+{% partial 'media-banner-tab' %}
+{% partial 'collection-banner-3' %}
+{% partial 'hot-deal' %}
+{% partial 'testimonial' %}
+<div class="title1 section-my-space">
+    <h4>Special Products</h4>
+</div>
+{% partial 'product' %}
+{% partial 'instagram' %}
+{% partial 'contact-banner' %}
+{% partial 'newsletter' %}
+{% put scripts %}  
+<script src="{{ 'assets/js/slider-animat.js'|theme }}"></script>
+<script src="{{ 'assets/js/timer.js'|theme }}?v=06"></script>
+{% endput %}

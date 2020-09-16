@@ -1,0 +1,29 @@
+1600221936a:1:{s:24:"notification-product.htm";a:6:{s:8:"fileName";s:24:"notification-product.htm";s:7:"content";s:535:"==
+<div class="product-notification" id="dismiss">
+    <span onclick="dismiss();" class="close" aria-hidden="true">×</span>
+    <div class="media">
+        <img
+            class="mr-2"
+            src="http://localhost/pixel/themes/pixel-template/assets/images/layout-1/product/5.jpg"
+            alt="Generic placeholder image"
+        />
+        <div class="media-body">
+            <h5 class="mt-0 mb-1">Latest trending</h5>
+            Cras sit amet nibh libero, in gravida nulla.
+        </div>
+    </div>
+</div>
+";s:5:"mtime";i:1599842950;s:6:"markup";s:529:"<div class="product-notification" id="dismiss">
+    <span onclick="dismiss();" class="close" aria-hidden="true">×</span>
+    <div class="media">
+        <img
+            class="mr-2"
+            src="http://localhost/pixel/themes/pixel-template/assets/images/layout-1/product/5.jpg"
+            alt="Generic placeholder image"
+        />
+        <div class="media-body">
+            <h5 class="mt-0 mb-1">Latest trending</h5>
+            Cras sit amet nibh libero, in gravida nulla.
+        </div>
+    </div>
+</div>";s:4:"code";N;s:17:"_PARSER_ERROR_INI";s:0:"";}}

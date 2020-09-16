@@ -1,0 +1,21 @@
+1600050177a:1:{s:20:"category/content.htm";a:6:{s:8:"fileName";s:20:"category/content.htm";s:7:"content";s:298:"==
+<div class="collection-content col">
+    <div class="page-main-content">
+        <div class="row">
+            <div class="col-sm-12">
+                {% partial 'category/banner' %}
+                {% partial 'category/product' %}
+            </div>
+        </div>
+    </div>
+</div>
+";s:5:"mtime";i:1600044506;s:6:"markup";s:292:"<div class="collection-content col">
+    <div class="page-main-content">
+        <div class="row">
+            <div class="col-sm-12">
+                {% partial 'category/banner' %}
+                {% partial 'category/product' %}
+            </div>
+        </div>
+    </div>
+</div>";s:4:"code";N;s:17:"_PARSER_ERROR_INI";s:0:"";}}

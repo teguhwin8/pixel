@@ -1,0 +1,43 @@
+1600221936a:1:{s:19:"discount-banner.htm";a:6:{s:8:"fileName";s:19:"discount-banner.htm";s:7:"content";s:818:"==
+<section class="discount-banner">
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <div class="discount-banner-contain">
+                    <h2>Discount on every single item on our site.</h2>
+                    <h1>
+                        <span>OMG! Just Look at the</span>
+                        <span>great Deals!</span>
+                    </h1>
+                    <div class="rounded-contain rounded-inverse">
+                        <div class="rounded-subcontain">
+                            How does it feel, when you see great discount deals
+                            for each product?
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+";s:5:"mtime";i:1599825331;s:6:"markup";s:812:"<section class="discount-banner">
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <div class="discount-banner-contain">
+                    <h2>Discount on every single item on our site.</h2>
+                    <h1>
+                        <span>OMG! Just Look at the</span>
+                        <span>great Deals!</span>
+                    </h1>
+                    <div class="rounded-contain rounded-inverse">
+                        <div class="rounded-subcontain">
+                            How does it feel, when you see great discount deals
+                            for each product?
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>";s:4:"code";N;s:17:"_PARSER_ERROR_INI";s:0:"";}}

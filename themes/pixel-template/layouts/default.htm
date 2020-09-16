@@ -1,0 +1,50 @@
+==
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta
+            name="viewport"
+            content="width=device-width, initial-scale=1, shrink-to-fit=no"
+        />
+        <link href="https://fonts.googleapis.com/css?family=PT+Sans:400,700&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Raleway&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"/>
+        <link rel="stylesheet" href="{{ 'assets/css/slick.css'|theme }}" />
+        <link rel="stylesheet" href="{{ 'assets/css/slick-theme.css'|theme }}" />
+        <link rel="stylesheet" href="{{ 'assets/css/animate.css'|theme }}" />
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"/>            
+        <link rel="stylesheet" href="{{ 'assets/css/color2.css'|theme }}" />
+        <link rel="stylesheet" href="{{ 'assets/css/themify.css'|theme }}" media="screen" id="color" />
+
+
+
+        <title>{{ this.page.title }} - Pixel Computer</title>
+    </head>
+    <body>
+        
+        <header>
+            <div class="mobile-fix-option"></div>
+            {% partial 'header/top-header' %} 
+            {% partial 'header/layout-header2' %}
+            {% partial 'header/category-header2' %}
+        </header>
+        {% page %}
+        {% partial 'footer' %}
+        {% partial 'goto-top' %}
+        {% partial 'add-to-cart-bar' %}
+        {% partial 'my-account-bar' %}
+        {% partial 'add-to-wishlist-bar' %}
+        {% partial 'notification-product' %}
+        {% partial 'quick-view-modal' %}
+        <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+        <script src="{{ 'assets/js/menu.js'|theme }}"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.js"></script>
+        <script src="{{ 'assets/js/bootstrap-notify.min.js'|theme }}"></script>
+        <script src="{{ 'assets/js/modal.js'|theme }}"></script>
+        <script src="{{ 'assets/js/script.js'|theme }}?v=06"></script>
+        {% scripts %}
+    </body>
+</html>

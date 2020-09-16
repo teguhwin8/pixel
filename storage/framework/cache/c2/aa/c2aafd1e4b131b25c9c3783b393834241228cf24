@@ -1,0 +1,9 @@
+1600050568a:1:{s:12:"whislist.htm";a:9:{s:8:"fileName";s:12:"whislist.htm";s:7:"content";s:132:"title = "Whislist"
+url = "/whislist"
+is_hidden = 0
+layout = "default"
+==
+{% partial 'breadcrumb' %}
+{% partial 'whislist' %}
+";s:5:"mtime";i:1600049926;s:6:"markup";s:52:"{% partial 'breadcrumb' %}
+{% partial 'whislist' %}";s:4:"code";N;s:5:"title";s:8:"Whislist";s:3:"url";s:9:"/whislist";s:9:"is_hidden";s:1:"0";s:6:"layout";s:7:"default";}}

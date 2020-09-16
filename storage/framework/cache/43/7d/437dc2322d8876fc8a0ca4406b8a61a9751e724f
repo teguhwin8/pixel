@@ -1,0 +1,39 @@
+1600221936a:1:{s:18:"contact-banner.htm";a:6:{s:8:"fileName";s:18:"contact-banner.htm";s:7:"content";s:771:"==
+<section class="contact-banner contact-banner-inverse">
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <div class="contact-banner-contain">
+                    <div class="contact-banner-img">
+                        <img
+                            src="http://localhost/pixel/themes/pixel-template/assets/images/layout-1/call-img.png"
+                            class="img-fluid"
+                            alt="call-banner"
+                        />
+                    </div>
+                    <div><h3>if you have any question please call us</h3></div>
+                    <div><h2>123-456-7890</h2></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+";s:5:"mtime";i:1599841634;s:6:"markup";s:765:"<section class="contact-banner contact-banner-inverse">
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <div class="contact-banner-contain">
+                    <div class="contact-banner-img">
+                        <img
+                            src="http://localhost/pixel/themes/pixel-template/assets/images/layout-1/call-img.png"
+                            class="img-fluid"
+                            alt="call-banner"
+                        />
+                    </div>
+                    <div><h3>if you have any question please call us</h3></div>
+                    <div><h2>123-456-7890</h2></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>";s:4:"code";N;s:17:"_PARSER_ERROR_INI";s:0:"";}}

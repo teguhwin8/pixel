@@ -1,0 +1,38 @@
+1600221936a:1:{s:15:"deal-banner.htm";a:5:{s:8:"fileName";s:15:"deal-banner.htm";s:7:"content";s:666:"<section class="deal-banner">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 col-lg-8">
+                <div class="deal-banner-containe">
+                    <h2>save up to 30% to 40% off</h2>
+                    <h1>omg! just look at the great deals!</h1>
+                </div>
+            </div>
+            <div class="col-md-12 col-lg-4">
+                <div class="deal-banner-containe">
+                    <div class="deal-btn">
+                        <a class="btn-white"> View more </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+";s:5:"mtime";i:1599829540;s:6:"markup";s:664:"<section class="deal-banner">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 col-lg-8">
+                <div class="deal-banner-containe">
+                    <h2>save up to 30% to 40% off</h2>
+                    <h1>omg! just look at the great deals!</h1>
+                </div>
+            </div>
+            <div class="col-md-12 col-lg-4">
+                <div class="deal-banner-containe">
+                    <div class="deal-btn">
+                        <a class="btn-white"> View more </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>";s:4:"code";N;}}

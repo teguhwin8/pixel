@@ -1,0 +1,171 @@
+1600221936a:1:{s:15:"testimonial.htm";a:6:{s:8:"fileName";s:15:"testimonial.htm";s:7:"content";s:4597:"==
+<section class="testimonial testimonial-inverse">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="slide-1 no-arrow">
+                    <div>
+                        <div class="testimonial-contain">
+                            <div class="media">
+                                <div class="testimonial-img">
+                                    <img
+                                        src="http://localhost/pixel/themes/pixel-template/assets/images/testimonial/1.jpg"
+                                        class="img-fluid rounded-circle"
+                                        alt="testimonial"
+                                    />
+                                </div>
+                                <div class="media-body">
+                                    <h5>mark jecno</h5>
+                                    <p>
+                                        Contrary to popular belief, Lorem Ipsum
+                                        is not simply random text. It has roots
+                                        in a piece of classical Latin literature
+                                        from 45 BC, making it over 2000 years
+                                        old. Richard McClintock, a Latin
+                                        professor at Hampden-Sydney College in
+                                        Virginia.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="testimonial-contain">
+                            <div class="media">
+                                <div class="testimonial-img">
+                                    <img
+                                        src="http://localhost/pixel/themes/pixel-template/assets/images/testimonial/2.jpg"
+                                        class="img-fluid rounded-circle"
+                                        alt="testimonial"
+                                    />
+                                </div>
+                                <div class="media-body">
+                                    <h5>mark jecno</h5>
+                                    <p>
+                                        Contrary to popular belief, Lorem Ipsum
+                                        is not simply random text. It has roots
+                                        in a piece of classical Latin literature
+                                        from 45 BC, making it over 2000 years
+                                        old. Richard McClintock, a Latin
+                                        professor at Hampden-Sydney College in
+                                        Virginia.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="testimonial-contain">
+                            <div class="media">
+                                <div class="testimonial-img">
+                                    <img
+                                        src="http://localhost/pixel/themes/pixel-template/assets/images/testimonial/3.jpg"
+                                        class="img-fluid rounded-circle"
+                                        alt="testimonial"
+                                    />
+                                </div>
+                                <div class="media-body">
+                                    <h5>mark jecno</h5>
+                                    <p>
+                                        Contrary to popular belief, Lorem Ipsum
+                                        is not simply random text. It has roots
+                                        in a piece of classical Latin literature
+                                        from 45 BC, making it over 2000 years
+                                        old. Richard McClintock, a Latin
+                                        professor at Hampden-Sydney College in
+                                        Virginia.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+";s:5:"mtime";i:1599840727;s:6:"markup";s:4591:"<section class="testimonial testimonial-inverse">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="slide-1 no-arrow">
+                    <div>
+                        <div class="testimonial-contain">
+                            <div class="media">
+                                <div class="testimonial-img">
+                                    <img
+                                        src="http://localhost/pixel/themes/pixel-template/assets/images/testimonial/1.jpg"
+                                        class="img-fluid rounded-circle"
+                                        alt="testimonial"
+                                    />
+                                </div>
+                                <div class="media-body">
+                                    <h5>mark jecno</h5>
+                                    <p>
+                                        Contrary to popular belief, Lorem Ipsum
+                                        is not simply random text. It has roots
+                                        in a piece of classical Latin literature
+                                        from 45 BC, making it over 2000 years
+                                        old. Richard McClintock, a Latin
+                                        professor at Hampden-Sydney College in
+                                        Virginia.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="testimonial-contain">
+                            <div class="media">
+                                <div class="testimonial-img">
+                                    <img
+                                        src="http://localhost/pixel/themes/pixel-template/assets/images/testimonial/2.jpg"
+                                        class="img-fluid rounded-circle"
+                                        alt="testimonial"
+                                    />
+                                </div>
+                                <div class="media-body">
+                                    <h5>mark jecno</h5>
+                                    <p>
+                                        Contrary to popular belief, Lorem Ipsum
+                                        is not simply random text. It has roots
+                                        in a piece of classical Latin literature
+                                        from 45 BC, making it over 2000 years
+                                        old. Richard McClintock, a Latin
+                                        professor at Hampden-Sydney College in
+                                        Virginia.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="testimonial-contain">
+                            <div class="media">
+                                <div class="testimonial-img">
+                                    <img
+                                        src="http://localhost/pixel/themes/pixel-template/assets/images/testimonial/3.jpg"
+                                        class="img-fluid rounded-circle"
+                                        alt="testimonial"
+                                    />
+                                </div>
+                                <div class="media-body">
+                                    <h5>mark jecno</h5>
+                                    <p>
+                                        Contrary to popular belief, Lorem Ipsum
+                                        is not simply random text. It has roots
+                                        in a piece of classical Latin literature
+                                        from 45 BC, making it over 2000 years
+                                        old. Richard McClintock, a Latin
+                                        professor at Hampden-Sydney College in
+                                        Virginia.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>";s:4:"code";N;s:17:"_PARSER_ERROR_INI";s:0:"";}}

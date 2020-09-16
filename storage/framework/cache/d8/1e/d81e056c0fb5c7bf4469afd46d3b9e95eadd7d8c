@@ -1,0 +1,20 @@
+1600050177a:1:{s:12:"category.htm";a:6:{s:8:"fileName";s:12:"category.htm";s:7:"content";s:336:"==
+<section class="section-big-pt-space ratio_asos bg-light">
+    <div class="collection-wrapper">
+        <div class="custom-container">
+            <div class="row">
+                {% partial 'category/left-sidebar' %}
+                {% partial 'category/content' %}
+            </div>
+        </div>
+    </div>
+</section>";s:5:"mtime";i:1600044415;s:6:"markup";s:332:"<section class="section-big-pt-space ratio_asos bg-light">
+    <div class="collection-wrapper">
+        <div class="custom-container">
+            <div class="row">
+                {% partial 'category/left-sidebar' %}
+                {% partial 'category/content' %}
+            </div>
+        </div>
+    </div>
+</section>";s:4:"code";N;s:17:"_PARSER_ERROR_INI";s:0:"";}}
