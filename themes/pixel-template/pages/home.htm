@@ -1,13 +1,31 @@
 title = "Home"
 url = "/"
-is_hidden = 0
 layout = "default"
+is_hidden = 0
 ==
-{% partial 'brand-panel' %}
-{% partial 'theme-slider' %}
-{% partial 'collection-banner' %}
-{% partial 'discount-banner' %}
-{% partial 'tab-product' %}
+<?php
+use Pixel\Store\Models\Brand;
+use Pixel\Store\Models\Slider;
+use Pixel\Store\Models\CollectionBanner;
+use Pixel\Store\Models\DiscountBanner;
+
+function onStart() {
+  $brand = Brand::where('is_active', 1)->get();
+  $slider = Slider::where('is_active', 1)->get();
+  $collectionbanner = CollectionBanner::where('is_active', 1)->get();
+  $discountbanner = DiscountBanner::where('is_active', 1)->where('id', 1)->first();
+  $this['brand'] = $brand;
+  $this['slider'] = $slider;
+  $this['collectionbanner'] = $collectionbanner;
+  $this['discountbanner'] = $discountbanner;
+}
+?>
+==
+{% partial 'brand-panel' brand=brand %}
+{% partial 'theme-slider' slider=slider %}
+{% partial 'collection-banner' data=collectionbanner %}
+{% partial 'discount-banner' data=discountbanner %}
+{% partial 'tab-product' data=category %}
 {% partial 'product-slider-tab' %}
 {% partial 'collection-banner-2' %}
 {% partial 'deal-banner' %}
@@ -23,8 +41,26 @@ layout = "default"
 {% partial 'product' %}
 {% partial 'instagram' %}
 {% partial 'contact-banner' %}
-{% partial 'newsletter' %}
+{# {% partial 'newsletter' %} #}
 {% put scripts %}  
-<script src="{{ 'assets/js/slider-animat.js'|theme }}"></script>
+{% if slider %}
+<script>
+window.onload = function(){
+    let themeslider   = document.querySelector('.theme-slider'),
+        {% for slider in slider %}
+        elem_{{ loop.index }}   = document.querySelector('#img-{{ loop.index }}');
+        {% endfor %}
+
+    themeslider.addEventListener('mousemove',function(e){
+        var pageX = e.clientX - window.innerWidth/1,
+            pageY = e.clientY - window.innerHeight/1;
+            {% for slider in slider %}
+            elem_{{ loop.index }}.style.transform = 'translateX(' + (7 + pageX/150) + '%) translateY(' + (1 + pageY/150) + '%)';
+            {% endfor %}
+    });
+};
+</script>
+{% endif %}
 <script src="{{ 'assets/js/timer.js'|theme }}?v=06"></script>
+
 {% endput %}

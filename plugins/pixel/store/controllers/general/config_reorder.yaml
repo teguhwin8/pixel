@@ -1,0 +1,4 @@
+title: General
+modelClass: Pixel\Store\Models\General
+toolbar:
+    buttons: reorder_toolbar

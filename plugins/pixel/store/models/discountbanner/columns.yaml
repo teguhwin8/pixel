@@ -1,0 +1,21 @@
+columns:
+    text_1:
+        label: text_1
+        type: text
+        searchable: true
+        sortable: true
+    text_2:
+        label: text_2
+        type: text
+        searchable: true
+        sortable: true
+    text_3:
+        label: text_3
+        type: text
+        searchable: true
+        sortable: true
+    is_active:
+        label: is_active
+        type: text
+        searchable: true
+        sortable: true

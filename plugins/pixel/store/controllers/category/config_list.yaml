@@ -1,0 +1,12 @@
+list: $/pixel/store/models/category/columns.yaml
+modelClass: Pixel\Store\Models\Category
+title: Category
+noRecordsMessage: 'backend::lang.list.no_records'
+showSetup: true
+showCheckboxes: true
+recordsPerPage: 20
+toolbar:
+    buttons: list_toolbar
+    search:
+        prompt: 'backend::lang.list.search_prompt'
+recordUrl: 'pixel/store/category/update/:id'

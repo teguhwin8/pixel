@@ -1,0 +1,12 @@
+list: $/pixel/store/models/collectionbanner/columns.yaml
+modelClass: Pixel\Store\Models\CollectionBanner
+title: CollectionBanner
+noRecordsMessage: 'backend::lang.list.no_records'
+showSetup: true
+showCheckboxes: true
+recordsPerPage: 20
+toolbar:
+    buttons: list_toolbar
+    search:
+        prompt: 'backend::lang.list.search_prompt'
+recordUrl: 'pixel/store/collectionbanner/update/:id'

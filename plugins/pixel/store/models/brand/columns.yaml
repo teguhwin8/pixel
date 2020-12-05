@@ -1,0 +1,21 @@
+columns:
+    name:
+        label: 'Nama Brand'
+        type: text
+        searchable: true
+        sortable: true
+    slug:
+        label: slug
+        type: text
+        searchable: true
+        sortable: true
+    website_url:
+        label: website_url
+        type: text
+        searchable: true
+        sortable: true
+    is_active:
+        label: is_active
+        type: text
+        searchable: true
+        sortable: true

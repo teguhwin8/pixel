@@ -1,0 +1,20 @@
+fields:
+    name:
+        label: 'Nama Brand'
+        span: auto
+        type: text
+    slug:
+        label: Slug
+        span: auto
+        preset:
+            field: name
+            type: slug
+        type: text
+    is_active:
+        label: Aktif
+        span: auto
+        type: switch
+    website_url:
+        label: 'Official Website'
+        span: auto
+        type: text

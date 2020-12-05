@@ -1,0 +1,4 @@
+title: Brand
+modelClass: Pixel\Store\Models\Brand
+toolbar:
+    buttons: reorder_toolbar

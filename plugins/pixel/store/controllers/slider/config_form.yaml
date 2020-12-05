@@ -1,0 +1,10 @@
+name: Slider
+form: $/pixel/store/models/slider/fields.yaml
+modelClass: Pixel\Store\Models\Slider
+defaultRedirect: pixel/store/slider
+create:
+    redirect: 'pixel/store/slider/update/:id'
+    redirectClose: pixel/store/slider
+update:
+    redirect: pixel/store/slider
+    redirectClose: pixel/store/slider

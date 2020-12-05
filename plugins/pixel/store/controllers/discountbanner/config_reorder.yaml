@@ -1,0 +1,4 @@
+title: DiscountBanner
+modelClass: Pixel\Store\Models\DiscountBanner
+toolbar:
+    buttons: reorder_toolbar

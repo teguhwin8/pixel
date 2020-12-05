@@ -1,0 +1,30 @@
+fields:
+    title_1:
+        label: 'Judul 1'
+        span: auto
+        type: text
+    title_2:
+        label: 'Judul 2'
+        span: auto
+        type: text
+    link:
+        label: Link
+        span: auto
+        type: text
+    link_text:
+        label: 'Teks Link'
+        span: auto
+        type: text
+    collection_banner_image:
+        label: Gambar
+        mode: image
+        useCaption: true
+        thumbOptions:
+            mode: crop
+            extension: auto
+        span: auto
+        type: fileupload
+    is_active:
+        label: Aktif
+        span: auto
+        type: switch

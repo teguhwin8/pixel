@@ -1,0 +1,15 @@
+columns:
+    name:
+        label: name
+        type: text
+        searchable: true
+        sortable: true
+    price:
+        label: price
+        type: number
+        searchable: true
+        sortable: true
+    is_active:
+        label: is_active
+        type: text
+        sortable: true

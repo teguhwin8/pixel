@@ -1,0 +1,44 @@
+plugin:
+    name: 'pixel.store::lang.plugin.name'
+    description: 'pixel.store::lang.plugin.description'
+    author: Pixel
+    icon: oc-icon-shopping-cart
+    homepage: ''
+navigation:
+    main-menu-item:
+        label: 'Pixel Computer'
+        url: pixel/store/general/update/1
+        icon: icon-laptop
+        sideMenu:
+            side-menu-item:
+                label: 'Pengaturan Umum'
+                url: pixel/store/general/update/1
+                icon: icon-gear
+            side-menu-item8:
+                label: Produk
+                url: pixel/store/product
+                icon: icon-shopping-cart
+            side-menu-item2:
+                label: Kategori
+                url: pixel/store/category
+                icon: icon-sitemap
+            side-menu-item3:
+                label: Brand
+                url: pixel/store/brand
+                icon: icon-star
+            side-menu-item4:
+                label: Gift
+                url: pixel/store/gift
+                icon: icon-gift
+            side-menu-item5:
+                label: Slider
+                url: pixel/store/slider
+                icon: icon-delicious
+            side-menu-item6:
+                label: 'Iklan Koleksi'
+                url: pixel/store/collectionbanner
+                icon: icon-th-large
+            side-menu-item7:
+                label: 'Iklan Diskon'
+                url: pixel/store/discountbanner/update/1
+                icon: icon-diamond

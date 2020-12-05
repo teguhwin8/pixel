@@ -1,0 +1,44 @@
+1.0.1:
+    - 'Initialize plugin.'
+1.0.2:
+    - 'Created table pixel_store_general'
+    - builder_table_create_pixel_store_general.php
+1.0.3:
+    - 'Created table pixel_store_category'
+    - builder_table_create_pixel_store_category.php
+1.0.4:
+    - 'Updated table pixel_store_category'
+    - builder_table_update_pixel_store_category.php
+1.0.5:
+    - 'Created table pixel_store_brand'
+    - builder_table_create_pixel_store_brand.php
+1.0.6:
+    - 'Created table pixel_store_gift'
+    - builder_table_create_pixel_store_gift.php
+1.0.7:
+    - 'Created table pixel_store_slider'
+    - builder_table_create_pixel_store_slider.php
+1.0.8:
+    - 'Updated table pixel_store_slider'
+    - builder_table_update_pixel_store_slider.php
+1.0.9:
+    - 'Updated table pixel_store_slider'
+    - builder_table_update_pixel_store_slider_2.php
+1.0.10:
+    - 'Updated table pixel_store_slider'
+    - builder_table_update_pixel_store_slider_3.php
+1.0.11:
+    - 'Created table pixel_store_collection_banner'
+    - builder_table_create_pixel_store_collection_banner.php
+1.0.12:
+    - 'Created table pixel_store_discount_banner'
+    - builder_table_create_pixel_store_discount_banner.php
+1.0.13:
+    - 'Updated table pixel_store_discount_banner'
+    - builder_table_update_pixel_store_discount_banner.php
+1.0.14:
+    - 'Created table pixel_store_product'
+    - builder_table_create_pixel_store_product.php
+1.0.15:
+    - 'Updated table pixel_store_product'
+    - builder_table_update_pixel_store_product.php

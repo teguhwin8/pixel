@@ -1,0 +1,4 @@
+title: Gift
+modelClass: Pixel\Store\Models\Gift
+toolbar:
+    buttons: reorder_toolbar

@@ -1,0 +1,12 @@
+list: $/pixel/store/models/slider/columns.yaml
+modelClass: Pixel\Store\Models\Slider
+title: Slider
+noRecordsMessage: 'backend::lang.list.no_records'
+showSetup: true
+showCheckboxes: true
+recordsPerPage: 20
+toolbar:
+    buttons: list_toolbar
+    search:
+        prompt: 'backend::lang.list.search_prompt'
+recordUrl: 'pixel/store/slider/update/:id'

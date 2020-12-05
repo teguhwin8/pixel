@@ -1,0 +1,4 @@
+title: Category
+modelClass: Pixel\Store\Models\Category
+toolbar:
+    buttons: reorder_toolbar

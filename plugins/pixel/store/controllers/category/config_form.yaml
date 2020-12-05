@@ -1,0 +1,10 @@
+name: Category
+form: $/pixel/store/models/category/fields.yaml
+modelClass: Pixel\Store\Models\Category
+defaultRedirect: pixel/store/category
+create:
+    redirect: 'pixel/store/category/update/:id'
+    redirectClose: pixel/store/category
+update:
+    redirect: pixel/store/category
+    redirectClose: pixel/store/category

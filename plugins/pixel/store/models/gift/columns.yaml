@@ -1,0 +1,21 @@
+columns:
+    title:
+        label: 'Judul Gift'
+        type: text
+        searchable: true
+        sortable: true
+    description:
+        label: Deskripsi
+        type: text
+        searchable: true
+        sortable: true
+    link:
+        label: Link
+        type: text
+        searchable: true
+        sortable: true
+    is_active:
+        label: Status
+        type: text
+        searchable: true
+        sortable: true

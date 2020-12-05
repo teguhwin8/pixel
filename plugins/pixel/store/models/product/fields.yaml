@@ -1,0 +1,52 @@
+fields:
+    is_active:
+        label: Aktif
+        span: left
+        default: 1
+        type: switch
+    name:
+        label: 'Nama Produk'
+        span: auto
+        type: text
+    price:
+        label: Harga
+        span: auto
+        type: number
+    slug:
+        label: Slug
+        span: auto
+        preset:
+            field: name
+            type: slug
+        type: text
+    description:
+        label: Deskripsi
+        size: large
+        span: full
+        type: textarea
+tabs:
+    fields:
+        product_image:
+            label: 'Image 1'
+            mode: image
+            imageWidth: '240'
+            imageHeight: '240'
+            useCaption: true
+            thumbOptions:
+                mode: crop
+                extension: auto
+            span: auto
+            type: fileupload
+            tab: Image
+        product_image_2:
+            label: 'Image 2'
+            mode: image
+            imageWidth: '240'
+            imageHeight: '240'
+            useCaption: true
+            thumbOptions:
+                mode: crop
+                extension: auto
+            span: auto
+            type: fileupload
+            tab: Image

@@ -1,0 +1,10 @@
+name: CollectionBanner
+form: $/pixel/store/models/collectionbanner/fields.yaml
+modelClass: Pixel\Store\Models\CollectionBanner
+defaultRedirect: pixel/store/collectionbanner
+create:
+    redirect: 'pixel/store/collectionbanner/update/:id'
+    redirectClose: pixel/store/collectionbanner
+update:
+    redirect: pixel/store/collectionbanner
+    redirectClose: pixel/store/collectionbanner

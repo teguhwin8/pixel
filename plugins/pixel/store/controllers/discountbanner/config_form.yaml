@@ -1,0 +1,10 @@
+name: DiscountBanner
+form: $/pixel/store/models/discountbanner/fields.yaml
+modelClass: Pixel\Store\Models\DiscountBanner
+defaultRedirect: pixel/store/discountbanner
+create:
+    redirect: 'pixel/store/discountbanner/update/:id'
+    redirectClose: pixel/store/discountbanner
+update:
+    redirect: pixel/store/discountbanner
+    redirectClose: pixel/store/discountbanner

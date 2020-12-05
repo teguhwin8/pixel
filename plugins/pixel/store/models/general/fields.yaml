@@ -1,0 +1,64 @@
+tabs:
+    fields:
+        name:
+            label: 'Nama Toko'
+            span: full
+            type: text
+            tab: 'Informasi Umum'
+        address:
+            label: 'Alamat Toko'
+            size: large
+            span: full
+            type: textarea
+            tab: 'Informasi Umum'
+        logo:
+            label: Logo
+            mode: image
+            imageWidth: '200'
+            imageHeight: '64'
+            useCaption: true
+            thumbOptions:
+                mode: crop
+                extension: auto
+            span: auto
+            type: fileupload
+            tab: 'Informasi Umum'
+        phone:
+            label: 'Nomor HP'
+            span: auto
+            type: text
+            tab: Kontak
+        whatsapp:
+            label: 'Nomor Whatsapp'
+            span: auto
+            type: text
+            tab: Kontak
+        email:
+            label: Email
+            span: auto
+            type: text
+            tab: Kontak
+        facebook:
+            label: Facebook
+            span: auto
+            placeholder: 'https://www.facebook.com/your_username'
+            type: text
+            tab: 'Sosial Media'
+        twitter:
+            label: Twitter
+            span: auto
+            placeholder: 'https://www.twitter.com/your_username'
+            type: text
+            tab: 'Sosial Media'
+        instagram:
+            label: Instagram
+            span: auto
+            placeholder: 'https://www.instagram.com/your_username'
+            type: text
+            tab: 'Sosial Media'
+        youtube:
+            label: Youtube
+            span: auto
+            placeholder: 'https://www.youtube.com/your_channel'
+            type: text
+            tab: 'Sosial Media'

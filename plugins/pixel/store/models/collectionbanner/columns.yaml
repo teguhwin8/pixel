@@ -1,0 +1,26 @@
+columns:
+    title_1:
+        label: 'Judul 1'
+        type: text
+        searchable: true
+        sortable: true
+    title_2:
+        label: 'Judul 2'
+        type: text
+        searchable: true
+        sortable: true
+    link:
+        label: link
+        type: text
+        searchable: true
+        sortable: true
+    link_text:
+        label: 'Teks Link'
+        type: text
+        searchable: true
+        sortable: true
+    is_active:
+        label: Aktif
+        type: text
+        searchable: true
+        sortable: true

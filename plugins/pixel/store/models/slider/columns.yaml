@@ -1,0 +1,21 @@
+columns:
+    title_1:
+        label: 'Judul Kiri'
+        type: text
+        searchable: true
+        sortable: true
+    title_2:
+        label: 'Judul kanan'
+        type: text
+        searchable: true
+        sortable: true
+    desciption:
+        label: Deskripsi
+        type: text
+        searchable: true
+        sortable: true
+    slogan:
+        label: Slogan
+        type: text
+        searchable: true
+        sortable: true

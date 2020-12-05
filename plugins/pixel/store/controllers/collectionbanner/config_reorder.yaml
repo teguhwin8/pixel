@@ -1,0 +1,4 @@
+title: CollectionBanner
+modelClass: Pixel\Store\Models\CollectionBanner
+toolbar:
+    buttons: reorder_toolbar

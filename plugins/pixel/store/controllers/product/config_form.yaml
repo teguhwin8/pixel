@@ -1,0 +1,10 @@
+name: Product
+form: $/pixel/store/models/product/fields.yaml
+modelClass: Pixel\Store\Models\Product
+defaultRedirect: pixel/store/product
+create:
+    redirect: 'pixel/store/product/update/:id'
+    redirectClose: pixel/store/product
+update:
+    redirect: pixel/store/product
+    redirectClose: pixel/store/product

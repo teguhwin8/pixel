@@ -1,0 +1,47 @@
+fields:
+    title_1:
+        label: 'Judul Pertama'
+        span: auto
+        type: text
+    title_2:
+        label: 'Judul Kedua'
+        span: auto
+        type: text
+    desciption:
+        label: Deskripsi
+        span: auto
+        type: text
+    slogan:
+        label: Slogan
+        span: auto
+        type: text
+    button_text:
+        label: 'Teks Button'
+        span: auto
+        type: text
+    link:
+        label: Link
+        span: auto
+        type: text
+    slider_left:
+        label: 'Gambar Kiri'
+        mode: image
+        useCaption: true
+        thumbOptions:
+            mode: crop
+            extension: auto
+        span: auto
+        type: fileupload
+    slider_right:
+        label: 'Gambar Kanan'
+        mode: image
+        useCaption: true
+        thumbOptions:
+            mode: crop
+            extension: auto
+        span: auto
+        type: fileupload
+    is_active:
+        label: Aktif
+        span: auto
+        type: switch

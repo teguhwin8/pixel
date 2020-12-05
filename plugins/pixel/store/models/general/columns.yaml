@@ -1,0 +1,31 @@
+columns:
+    name:
+        label: name
+        type: text
+    address:
+        label: address
+        type: text
+    phone:
+        label: phone
+        type: text
+    email:
+        label: email
+        type: text
+    fax:
+        label: fax
+        type: text
+    whatsapp:
+        label: whatsapp
+        type: text
+    facebook:
+        label: facebook
+        type: text
+    instagram:
+        label: instagram
+        type: text
+    youtube:
+        label: youtube
+        type: text
+    twitter:
+        label: twitter
+        type: text

@@ -1,0 +1,28 @@
+fields:
+    name:
+        label: 'Nama Kategori'
+        span: auto
+        type: text
+    slug:
+        label: Slug
+        span: auto
+        preset:
+            field: name
+            type: slug
+        type: text
+    is_active:
+        label: Aktif
+        span: auto
+        default: 1
+        type: switch
+    icon:
+        label: Ikon
+        mode: image
+        imageWidth: '50'
+        imageHeight: '50'
+        useCaption: true
+        thumbOptions:
+            mode: crop
+            extension: auto
+        span: auto
+        type: fileupload

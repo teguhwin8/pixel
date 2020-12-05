@@ -1,0 +1,10 @@
+name: Gift
+form: $/pixel/store/models/gift/fields.yaml
+modelClass: Pixel\Store\Models\Gift
+defaultRedirect: pixel/store/gift
+create:
+    redirect: 'pixel/store/gift/update/:id'
+    redirectClose: pixel/store/gift
+update:
+    redirect: pixel/store/gift
+    redirectClose: pixel/store/gift

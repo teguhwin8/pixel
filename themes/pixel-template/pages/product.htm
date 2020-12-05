@@ -1,7 +1,27 @@
 title = "Produk"
 url = "/produk/:slug?"
-is_hidden = 0
 layout = "default"
+is_hidden = 0
+==
+<?php
+use Pixel\Store\Models\Product;
+
+function onStart() {
+    $slug = $this->param('slug');
+    if ($slug == '') {
+        $this['products'] = Product::get();
+    } else {
+        $this['product'] = Product::where('slug', $slug)->first();
+    }
+}
+?>
 ==
 {% partial 'breadcrumb' %}
-{% partial 'product-detail' %}
+
+{% if products %}
+{% partial 'product-lists' %}
+{% else %}
+  {% if product %}
+  {% partial 'product-detail' %}
+  {% endif %}
+{% endif %}

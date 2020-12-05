@@ -1,0 +1,10 @@
+name: General
+form: $/pixel/store/models/general/fields.yaml
+modelClass: Pixel\Store\Models\General
+defaultRedirect: pixel/store/general/update/1
+create:
+    redirect: 'pixel/store/general/update/:id'
+    redirectClose: pixel/store/general/update/1
+update:
+    redirect: pixel/store/general/update/1
+    redirectClose: pixel/store/general/update/1

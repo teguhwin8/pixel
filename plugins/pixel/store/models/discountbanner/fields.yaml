@@ -1,0 +1,21 @@
+fields:
+    is_active:
+        label: Aktif
+        span: full
+        type: switch
+    text_1:
+        label: 'Teks 1'
+        span: auto
+        type: text
+    text_2:
+        label: 'Teks 2'
+        span: auto
+        type: text
+    text_3:
+        label: 'Teks 3'
+        span: auto
+        type: text
+    text_4:
+        label: 'Teks 4'
+        span: auto
+        type: text
